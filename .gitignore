@@ -1,0 +1,5 @@
+.calva/
+.lsp/
+.clj-kondo/
+__pycache__/
+*.pyc
