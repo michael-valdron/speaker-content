@@ -10,3 +10,6 @@ def kadanes_algorithm(array):
         max_sum = max(max_sum, running_sum)
     
     return max_sum
+
+# kadanes_algorithm([-5, 4, 1, -6, 5, -1, 4, 3, 2])
+# => 13 ([5, -1, 4, 3, 2])
