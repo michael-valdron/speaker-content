@@ -3,4 +3,5 @@
   :repl-options {:init-ns leetcode.core}
   :profiles {:kadanes {:repl-options {:init-ns leetcode.kadanes}}
              :inverse-tree {:repl-options {:init-ns leetcode.inverse-tree}}
+             :two-sum {:repl-options {:init-ns leetcode.two-sum}}
              :power-of-two {:repl-options {:init-ns leetcode.power-of-two}}})
