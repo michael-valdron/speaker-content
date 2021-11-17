@@ -1,4 +1,4 @@
-(ns leetcoding)
+(ns leetcode.kadanes)
 
 (defn update-sums
   [sums value]
@@ -14,3 +14,5 @@
         (-> (reduce update-sums sums (rest array)) 
             :max-sum))))
 
+;; (kadanes-algorithm [-5 4 1 -6 5 -1 4 3 2])
+;; => 13 ([5 -1 4 3 2])
